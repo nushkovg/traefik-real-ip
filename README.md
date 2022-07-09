@@ -16,7 +16,7 @@ pilot:
 experimental:
   plugins:
     traefik-real-ip:
-      modulename: github.com/soulbalz/traefik-real-ip
+      modulename: github.com/nushkovg/traefik-real-ip
       version: v1.0.3
 ```
 
@@ -78,7 +78,7 @@ spec:
             - --entrypoints.web.Address=:80
             - --providers.kubernetescrd
             - --pilot.token={YOUR_PILOT_TOKEN}
-            - --experimental.plugins.traefik-real-ip.modulename=github.com/soulbalz/traefik-real-ip
+            - --experimental.plugins.traefik-real-ip.modulename=github.com/nushkovg/traefik-real-ip
             - --experimental.plugins.traefik-real-ip.version=v1.0.3
           ports:
             - name: web

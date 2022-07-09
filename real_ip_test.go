@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	plugin "github.com/soulbalz/traefik-real-ip"
+	plugin "github.com/nushkovg/traefik-real-ip"
 )
 
 func TestNew(t *testing.T) {
